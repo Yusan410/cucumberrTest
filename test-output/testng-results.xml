@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-08T19:54:49 EDT" name="Default suite" finished-at="2022-05-08T19:54:50 EDT" duration-ms="1603">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.cukesRunner@5a56cdac]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-05-08T19:54:49 EDT" name="Default test" finished-at="2022-05-08T19:54:50 EDT" duration-ms="1603">
+      <class name="runner.cukesRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.cukesRunner@5a56cdac]" started-at="2022-05-08T19:54:49 EDT" name="setUpClass" finished-at="2022-05-08T19:54:50 EDT" duration-ms="1059" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@edf4f36]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.cukesRunner@5a56cdac]" started-at="2022-05-08T19:54:50 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-08T19:54:50 EDT" duration-ms="166" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Navigate to Home Page and check all services are visible in 4 categories. Each category have list of services in there"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[AllServicesShowOnWebsite]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.cukesRunner@5a56cdac]" started-at="2022-05-08T19:54:50 EDT" name="tearDownClass" finished-at="2022-05-08T19:54:50 EDT" duration-ms="317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.cukesRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

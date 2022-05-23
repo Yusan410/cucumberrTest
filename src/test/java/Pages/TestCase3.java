@@ -37,5 +37,11 @@ public class TestCase3 {
 	@FindBy(xpath="/html/body/div[1]/header/div/div[1]/div[1]/a/img")
 	public WebElement HomePage;
 	
+	
+		
+		
+		
+	}
+	
 
-}
+

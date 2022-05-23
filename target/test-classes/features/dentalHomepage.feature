@@ -1,4 +1,4 @@
-  
+  @SmokeTest
 	Feature: AllServicesShowOnWebsite
 	@Yusan
 	Scenario: Navigate to Home Page and check all services are visible in 4 categories. Each category have list of services in there

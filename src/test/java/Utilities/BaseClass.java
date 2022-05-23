@@ -1,5 +1,6 @@
 package Utilities;
 
+import org.testng.annotations.AfterMethod;
 import java.io.FileInputStream;
 import java.util.Properties;
 
@@ -49,6 +50,7 @@ public class BaseClass {
 				}
 
 				// close/quit browser
+				@AfterMethod
 				public static void tearDown() {
 					if (driver != null) {
 						driver.close();
