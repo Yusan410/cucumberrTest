@@ -2,6 +2,7 @@ package Utilities;
 
 import Pages.AllserviceClickTable;
 import Pages.HomePage;
+import Pages.LoginPage;
 import Pages.TestCase3;
 
 public class PageInitilizer extends BaseClass {
@@ -11,6 +12,8 @@ public class PageInitilizer extends BaseClass {
 	public static AllserviceClickTable ver;
 	
 	public static TestCase3 rrr;
+	
+	public static LoginPage DC3;
 	
 	
 	
@@ -23,6 +26,8 @@ public class PageInitilizer extends BaseClass {
 		all = new HomePage();
 		
 		rrr = new TestCase3();
+		
+	   DC3 = new LoginPage();
 		
 	}
 

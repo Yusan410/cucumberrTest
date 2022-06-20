@@ -1,11 +1,13 @@
 package stepdef;
 
+
 import org.junit.Assert;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 
 import Utilities.BaseClass;
 import Utilities.CommonMethod;
+import io.cucumber.java.After;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -21,6 +23,13 @@ public class Homepage extends CommonMethod {
 
 		// ((JavascriptExecutor) BaseClass.driver).executeScript("scroll(0,2000)");
 		scrollDown(2000);
+	}
+    @After
+	public void after() {
+    	
+    	driver.quit();
+		
+		
 	}
 
 	@When("Under Dental Services In Thornhill\" Verify that all services are visible")

@@ -18,8 +18,8 @@ import io.cucumber.testng.CucumberOptions;
 	 	monochrome = true,
 		features = "src/test/resources/features/",
 		glue = {"stepdef"}, 
-		dryRun = true, 
-		tags = "@Yusan"
+		dryRun = false, 
+		tags = "@SmokeTest"
 		)
 
 	

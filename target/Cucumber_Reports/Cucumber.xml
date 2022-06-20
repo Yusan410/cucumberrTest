@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.354">
-    <testcase classname="AllServicesShowOnWebsite" name="Navigate to Home Page and check all services are visible in 4 categories. Each category have list of services in there" time="0.017">
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="0.459">
+    <testcase classname="Verify login funcion" name="Login funcinality" time="0.152">
         <system-out>
-            <![CDATA[Given User is on HomePage...................................................passed
-When Under Dental Services In Thornhill" Verify that all services are visible.passed
+            <![CDATA[Given Navigate to home page.................................................passed
+And Click on My Account Menu................................................passed
+When Enter registered "Yusan410@gmail.com" username textbox.................passed
+And Enter "Yusan8559693" in password textbox................................passed
+And Click on login button...................................................passed
+Then User on home page......................................................passed
+Then Click on sign out button...............................................passed
+Then Verify the page header.................................................passed
 ]]>
         </system-out>
+    </testcase>
+    <testcase classname="Verify login funcion" name="Registration funcion" time="0.001">
+        <failure message="The scenario has no steps" type="java.lang.Exception"/>
     </testcase>
 </testsuite>
