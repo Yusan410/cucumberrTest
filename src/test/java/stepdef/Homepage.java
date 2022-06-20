@@ -24,13 +24,10 @@ public class Homepage extends CommonMethod {
 		// ((JavascriptExecutor) BaseClass.driver).executeScript("scroll(0,2000)");
 		scrollDown(2000);
 	}
-    @After
-	public void after() {
-    	
-    	driver.quit();
+  
 		
 		
-	}
+	
 
 	@When("Under Dental Services In Thornhill\" Verify that all services are visible")
 	public void under_dental_services_in_thornhill_verify_that_all_services_are_visible() {
@@ -370,5 +367,10 @@ public class Homepage extends CommonMethod {
 		rrr.HomePage.click();
 
 	}
+	  @After
+		public void after() {
+	    	
+	    	driver.quit();
+	  }
 
 }
