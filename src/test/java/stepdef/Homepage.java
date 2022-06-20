@@ -367,10 +367,6 @@ public class Homepage extends CommonMethod {
 		rrr.HomePage.click();
 
 	}
-	  @After
-		public void after() {
-	    	
-	    	driver.quit();
-	  }
+	
 
 }
