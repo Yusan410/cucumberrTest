@@ -1,19 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="0.459">
-    <testcase classname="Verify login funcion" name="Login funcinality" time="0.152">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="0.561">
+    <testcase classname="AllServicesShowOnWebsite" name="Navigate to Home Page and check all services are visible in 4 categories. Each category have list of services in there" time="0.124">
         <system-out>
-            <![CDATA[Given Navigate to home page.................................................passed
-And Click on My Account Menu................................................passed
-When Enter registered "Yusan410@gmail.com" username textbox.................passed
-And Enter "Yusan8559693" in password textbox................................passed
-And Click on login button...................................................passed
-Then User on home page......................................................passed
-Then Click on sign out button...............................................passed
-Then Verify the page header.................................................passed
+            <![CDATA[Given User is on HomePage...................................................passed
+When Under Dental Services In Thornhill" Verify that all services are visible.passed
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Verify login funcion" name="Registration funcion" time="0.001">
-        <failure message="The scenario has no steps" type="java.lang.Exception"/>
+    <testcase classname="AllServicesShowOnWebsite" name="Navigate to Home Page and check all services are clickable and verify with the page header" time="0.005">
+        <system-out>
+            <![CDATA[Given User is on HomePage...................................................passed
+And Click on "<service>" under Dental Services In Thornhill.................passed
+Then You will go to the next page, verify with the header "<service_header>" is correct then go back to homepage use example list below.passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="AllServicesShowOnWebsite" name="On the top of menu button clicks on services then each categories of service are clickable, after clicked verify all services in that category are visible" time="0.004">
+        <system-out>
+            <![CDATA[Given user is on HomePage...................................................passed
+Then On the top of menu button click on services then each categories of service are clickable, Click on service_catagory.passed
+And Verify all services in this category are visible service_list...........passed
+]]>
+        </system-out>
     </testcase>
 </testsuite>

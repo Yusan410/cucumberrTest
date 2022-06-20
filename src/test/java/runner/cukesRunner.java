@@ -1,11 +1,11 @@
 package runner;
 
 import org.junit.runner.RunWith;
-import org.testng.annotations.Test;
+
 import io.cucumber.junit.Cucumber;
 
 import io.cucumber.testng.AbstractTestNGCucumberTests;
-import io.cucumber.testng.CucumberOptions;
+import io.cucumber.junit.CucumberOptions;
 
 
 
@@ -16,9 +16,9 @@ import io.cucumber.testng.CucumberOptions;
 				"junit:target/Cucumber_Reports/Cucumber.xml",
 		"html:target/HTML_Reports/index.html"},
 	 	monochrome = true,
-		features = "src/test/resources/features/",
+		features = "src/test/resources/features/dentalHomepage.feature",
 		glue = {"stepdef"}, 
-		dryRun = false, 
+		dryRun = true, 
 		tags = "@SmokeTest"
 		)
 
