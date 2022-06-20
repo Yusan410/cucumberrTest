@@ -18,7 +18,7 @@ import io.cucumber.junit.CucumberOptions;
 	 	monochrome = true,
 		features = "src/test/resources/features/dentalHomepage.feature",
 		glue = {"stepdef"}, 
-		dryRun = true, 
+		dryRun = false, 
 		tags = "@SmokeTest"
 		)
 
