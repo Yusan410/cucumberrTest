@@ -17,7 +17,7 @@ public class Homepage extends CommonMethod {
 	@Given("User is on HomePage")
 	public void user_is_on_home_page() throws InterruptedException {
 
-		BaseClass.getDriver().get(BaseClass.getProperty("Url"));
+		//BaseClass.getDriver().get(BaseClass.getProperty("Url"));
 
 		wait(3);
 
